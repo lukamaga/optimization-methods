@@ -101,16 +101,23 @@ $$
 2xy+2xz+2yz=1.
 $$
 
-The implementation minimizes the augmented objective
+The implementation applies a local search to the augmented objective
 
 $$
-B(X,r)=-xyz+\frac1r\left[
-\max(0,-x)^2+\max(0,-y)^2+\max(0,-z)^2+
-(2xy+2xz+2yz-1)^2
-\right].
+B(X,r)=-xyz+\frac{E(X)}r,
 $$
 
-A three-dimensional deformable simplex solves each augmented problem. The penalty parameter starts at $r=10$ and is halved between solves, increasing the cost of constraint violations. The supplied starting point is $(0.1,0,0.4)$.
+where the squared constraint violation is
+
+$$
+\begin{aligned}
+E(X)={}&\max(0,-x)^2+\max(0,-y)^2\\
+&+\max(0,-z)^2\\
+&+(2xy+2xz+2yz-1)^2.
+\end{aligned}
+$$
+
+A three-dimensional deformable simplex performs each local search. The penalty parameter starts at $r=10$ and is halved between searches, increasing the cost of constraint violations. The supplied starting point is $(0.1,0,0.4)$.
 
 The analytical optimum is a cube:
 

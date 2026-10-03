@@ -19,12 +19,31 @@ $$
 The source calls the objective `V`, so its printed `V(X)` is **negative** physical volume. Its augmented objective is
 
 $$
-B(X,r)=-xyz+\frac{1}{r}\left[
-\max(0,-x)^2+\max(0,-y)^2+\max(0,-z)^2+
-(2xy+2xz+2yz-1)^2\right].
+B(X,r)=-xyz+\frac{E(X)}r,
+$$
+
+where
+
+$$
+\begin{aligned}
+E(X)={}&\max(0,-x)^2+\max(0,-y)^2\\
+&+\max(0,-z)^2\\
+&+(2xy+2xz+2yz-1)^2.
+\end{aligned}
 $$
 
 Halving $r$ increases the coefficient $1/r$ and penalizes constraint violations more strongly. The analytical symmetric solution is a cube with side length $1/\sqrt6$ and positive volume $1/(6\sqrt6)$; this is a mathematical reference, not a claim about the accuracy of every run.
+
+### Scope of the penalty search
+
+Each inner simplex run performs a local search. For any fixed $r>0$, the augmented objective is unbounded below over all of $\mathbb R^3$. For example, setting $X=(-t,-t,t/2)$ with $t>0$ gives
+
+$$
+B(X,r)=-\frac{t^3}{2}+\frac{2t^2+1}{r}
+\longrightarrow-\infty.
+$$
+
+The finite optimum of the original constrained box problem therefore does not establish a global minimum for its unconstrained penalty subproblems. The supplied method is a local penalty experiment.
 
 ## Run
 
@@ -57,7 +76,7 @@ The initial point and penalty schedule are in the `if __name__ == '__main__'` bl
 
 `Vector` represents a three-dimensional point. `simplexMethod` constructs four vertices and performs reflection, expansion, contraction or shrinking. Its size criterion is the sum of the tetrahedron's six edge lengths.
 
-`Penalty` computes the constraint term using the global `r`; `VPenalty` adds `V` and increments the objective-call counter. `RunPenaltyAlgorithm` solves one augmented problem from the current point. The outer loop reuses that result as the next starting point.
+`Penalty` computes `E(X) / r` using the global `r`; `VPenalty` adds `V` and increments the objective-call counter. `RunPenaltyAlgorithm` performs one local simplex search from the current point. The outer loop reuses that result as the next starting point.
 
 ## Stopping behavior
 
