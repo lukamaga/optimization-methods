@@ -1,0 +1,4 @@
+method,reported_x_min,reported_iterations_excluding_initial_state,reported_f_evaluations,reported_first_derivative_evaluations,reported_second_derivative_evaluations,source_report,page
+interval_halving,0.0000762939453,17,54,0,0,01-one-dimensional-optimization-report.pdf,10
+golden_section,0.0000482243784,24,51,0,0,01-one-dimensional-optimization-report.pdf,10
+newton,0.0001980106402,25,0,25,25,01-one-dimensional-optimization-report.pdf,10

@@ -1,0 +1,11 @@
+method,start,parameter,reported_point,reported_iterations,reported_f_evaluations,reported_gradient_evaluations,status,source_report,page
+gradient_descent,"(1, 1)",gamma=0.03,"(0.3339, 0.3339)",1590,,1591,converged,02-unconstrained-optimization-report.pdf,3
+gradient_descent,"(1, 1)",gamma=2.666,"(0.33325, 0.33325)",1,,2,converged,02-unconstrained-optimization-report.pdf,3
+gradient_descent,"(0, 0.4)",gamma=0.03,"(0.33164, 0.33504)",3629,,3630,converged,02-unconstrained-optimization-report.pdf,4
+gradient_descent,"(0, 0.4)",gamma=10.523,"(0.33193, 0.3348)",7,,8,converged,02-unconstrained-optimization-report.pdf,4
+gradient_descent,"(0, 0.4)",gamma=16.124,"(0.35268, 0.35268)",10000,,10001,iteration limit,02-unconstrained-optimization-report.pdf,4
+steepest_descent,"(0, 0.4)","search=[0, 5]","(0.33167, 0.33501)",19,495,20,converged,02-unconstrained-optimization-report.pdf,8
+steepest_descent,"(0, 0.4)","search=[5, 10]","(0.33211, 0.33457)",8,209,9,converged,02-unconstrained-optimization-report.pdf,9
+deformable_simplex,"(1, 1)",alpha=0.8; gamma=2.01; beta=0.25; tau=0.151,"(0.333280, 0.333281)",23,,,converged,02-unconstrained-optimization-report.pdf,11
+deformable_simplex,"(0, 0)",alpha=0.8; gamma=2.01; beta=0.25; tau=0.151,"(0.333328, 0.333346)",26,,,converged,02-unconstrained-optimization-report.pdf,12
+deformable_simplex,"(0, 0.4)",alpha=0.8; gamma=2.01; beta=0.25; tau=0.151,"(0.333287, 0.333360)",21,,,converged,02-unconstrained-optimization-report.pdf,13

@@ -1,0 +1,4 @@
+start,initial_penalty_parameter_r,parameter_divisor_q,reported_outer_iterations,reported_point,reported_objective,reported_penalty_function_evaluations,source_report,page
+"(0, 0, 0)",10,2,31,"(0.4082524, 0.4082389, 0.4082534)",-0.068041381,4367,03-constrained-optimization-report.pdf,3
+"(0, 0, 0)",10,5,13,"(0.4082165, 0.4082955, 0.4082327)",-0.068041381,1906,03-constrained-optimization-report.pdf,3
+"(0, 0, 0)",10,20,8,"(0.40827956, 0.4082311, 0.40823418)",-0.0680413813,1374,03-constrained-optimization-report.pdf,4

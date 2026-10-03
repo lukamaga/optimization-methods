@@ -1,0 +1,260 @@
+{
+  "source_root_label": "Optimizavimas coursework archive",
+  "figure_count": 23,
+  "figures": [
+    {
+      "source": "vienmatis/optimizavimas1.2.pdf",
+      "source_page": 10,
+      "source_image_xref": 104,
+      "source_sha256": "7d7e41d3caf2eae8c82ac46994c1414ffb1b67a72555e07a40d17fea547f91fe",
+      "destination": "docs/assets/one-dimensional-method-comparison.png",
+      "sha256": "2d700a4a5c45ee8cc0a17e2612f1ea7c925d08f05d9e5ea379afa8a43b1e71df",
+      "width": 1000,
+      "height": 600,
+      "caption": "Interval halving, golden-section search and Newton iterates compared on the same quartic objective. Original report figure 8.",
+      "modification": "Existing embedded raster extracted from the source PDF; no drawing, cropping or data changes."
+    },
+    {
+      "source": "vienmatis/pusiau.png",
+      "destination": "docs/assets/interval-halving-samples.png",
+      "sha256": "a37459c6e2ccbdbbd26b1adf19014be4ab5104fe1c725c76f68f5f92b6c6ad00",
+      "width": 1000,
+      "height": 600,
+      "caption": "Interval halving: sample points on the quartic objective.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "vienmatis/pusiau_intervalai.png",
+      "destination": "docs/assets/interval-halving-intervals.png",
+      "sha256": "28d31a48c6a81684b5ef0a726c7ec00bcf60f0975e719a0569c408f5dc4659e9",
+      "width": 1000,
+      "height": 600,
+      "caption": "Interval halving: successive search intervals.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "vienmatis/dalijimo_lr.png",
+      "destination": "docs/assets/interval-halving-bounds.png",
+      "sha256": "b674d9610908fca166dde624b7c61009be1adafffbd88b4030f386046046bc1c",
+      "width": 1000,
+      "height": 600,
+      "caption": "Interval halving: left and right endpoint history.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "vienmatis/auksinio.png",
+      "destination": "docs/assets/golden-section-samples.png",
+      "sha256": "53a28081fa76f41192fe02e7f1b4d24c6b3950e0cf74ff6b231c08e8e433aba4",
+      "width": 1000,
+      "height": 600,
+      "caption": "Golden-section search: sample points on the quartic objective.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "vienmatis/golden_intervalai.png",
+      "destination": "docs/assets/golden-section-intervals.png",
+      "sha256": "019897e6499dbb8c4c107cb8ff2e7288b9477ed72304456698f422e4dc333564",
+      "width": 1000,
+      "height": 600,
+      "caption": "Golden-section search: successive search intervals.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "vienmatis/golden_lr.png",
+      "destination": "docs/assets/golden-section-bounds.png",
+      "sha256": "ae52b12b0b60849e9e4eadf20abd7c7b6e104124bd697db70f07dd63d8973337",
+      "width": 1000,
+      "height": 600,
+      "caption": "Golden-section search: left and right endpoint history.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "vienmatis/newton_good.png",
+      "destination": "docs/assets/newton-trajectory.png",
+      "sha256": "a0fe38b6fcb82c136af2f008534e22200ba6b44a1cee22f7d24ce9e918ec2984",
+      "width": 1000,
+      "height": 600,
+      "caption": "Newton method: iterates on the quartic objective.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_0.03_0,0.4.png",
+      "destination": "docs/assets/unconstrained-gradient-start-0-0.4-step-0.03.png",
+      "sha256": "086575204745867b4bea8da8eef591000d6bc6c26d755ac700999fbbf9cf5cb2",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (0, 0.4), step 0.03.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_0.03_1,1.png",
+      "destination": "docs/assets/unconstrained-gradient-start-1-1-step-0.03.png",
+      "sha256": "42c59c3005fe3727fdfd1a2eece268fa58f33021cf604e4b30e174292e1f92f8",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (1, 1), step 0.03.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_0.3_1,1.png",
+      "destination": "docs/assets/unconstrained-gradient-start-1-1-step-0.3.png",
+      "sha256": "43b10c6fd8faa535032c85f72cf79b094a8b068ca70a9970914513ee37ca697d",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (1, 1), step 0.3.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_10.523_0,0.4.png",
+      "destination": "docs/assets/unconstrained-gradient-start-0-0.4-step-10.523.png",
+      "sha256": "e3f4a8f37645122605de2a6a957f837f7f3fca2ca56ac1665f2b90f843cd2c22",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (0, 0.4), step 10.523.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_15.4523_0,0.4.png",
+      "destination": "docs/assets/unconstrained-gradient-start-0-0.4-step-15.4523.png",
+      "sha256": "f56351d9f114a070825a340f1827fb7b5b4960b05092de71b0ac8dbcbc7c7f69",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (0, 0.4), step 15.4523.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_16.124_0,0.4.png",
+      "destination": "docs/assets/unconstrained-gradient-start-0-0.4-step-16.124.png",
+      "sha256": "d51a5b1edfd047ce423140087de72e956cd899526dbe2adaabf59d1d009098c9",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (0, 0.4), step 16.124; the report records an iteration-limit case.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_2.666_1,1.png",
+      "destination": "docs/assets/unconstrained-gradient-start-1-1-step-2.666.png",
+      "sha256": "7fa4da1d6ca9723ce07cb61d42c9d538c449036ee17a95cb1a1a8ad159cfa101",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (1, 1), step 2.666.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/grad_3.233_1,1.png",
+      "destination": "docs/assets/unconstrained-gradient-start-1-1-step-3.233.png",
+      "sha256": "d21d270db0773ea7eebf112499501bee721f15391de65f1437d27256d313d4c2",
+      "width": 1000,
+      "height": 800,
+      "caption": "Fixed-step gradient descent: start (1, 1), step 3.233.",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/optimalus_[0,1]_1,1.png",
+      "destination": "docs/assets/unconstrained-optimal-step-start-1-1-range-0-1.png",
+      "sha256": "07d7210054c8c3106027ca6f35d8907429fddbdf8d7d82a88ab8ef07c2164768",
+      "width": 1000,
+      "height": 800,
+      "caption": "Steepest descent with line search: start (1, 1), step-search interval [0, 1].",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/optimalus_[0,5]_0,0.4.png",
+      "destination": "docs/assets/unconstrained-optimal-step-start-0-0.4-range-0-5.png",
+      "sha256": "d3e9383731718577d5093a4e9b8eeba8faf3de9e312a78bda67599e0db3321a2",
+      "width": 1000,
+      "height": 800,
+      "caption": "Steepest descent with line search: start (0, 0.4), step-search interval [0, 5].",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/optimalus_[0,5]_1,1.png",
+      "destination": "docs/assets/unconstrained-optimal-step-start-1-1-range-0-5.png",
+      "sha256": "3ceae172ef56057753c822a0f0a71e37c7bc243265cd4231254780c3439033ac",
+      "width": 1000,
+      "height": 800,
+      "caption": "Steepest descent with line search: start (1, 1), step-search interval [0, 5].",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/optimalus_[5,10]_0,0.4.png",
+      "destination": "docs/assets/unconstrained-optimal-step-start-0-0.4-range-5-10.png",
+      "sha256": "a7908585cb3249473c63e543fff432e421d09279f34cb368187917b8cae710a3",
+      "width": 1000,
+      "height": 800,
+      "caption": "Steepest descent with line search: start (0, 0.4), step-search interval [5, 10].",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/simplex0.0.4.png",
+      "destination": "docs/assets/unconstrained-simplex-start-0-0.4.png",
+      "sha256": "38c90430d1c3921b463f66546221b233171a0c117182924894e04ba2071839b5",
+      "width": 1000,
+      "height": 800,
+      "caption": "Deformable simplex trajectory: start (0, 0.4).",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/simplex0.0.png",
+      "destination": "docs/assets/unconstrained-simplex-start-0-0.png",
+      "sha256": "12db974ece8559911f02088f6509b23ab4aaecfdbadb3f2b743c549b5a34f5e1",
+      "width": 1000,
+      "height": 800,
+      "caption": "Deformable simplex trajectory: start (0, 0).",
+      "modification": "None; original PNG copied byte for byte."
+    },
+    {
+      "source": "be_apribojimu/be_apr_grafikai/simplex1.1.png",
+      "destination": "docs/assets/unconstrained-simplex-start-1-1.png",
+      "sha256": "ff042d29d825753207dc4c2bdbebe2a4eef01f47e71dca899c805f2b62d78de3",
+      "width": 1000,
+      "height": 800,
+      "caption": "Deformable simplex trajectory: start (1, 1).",
+      "modification": "None; original PNG copied byte for byte."
+    }
+  ],
+  "reports": [
+    {
+      "source": "vienmatis/optimizavimas1.2.pdf",
+      "destination": "docs/reports/01-one-dimensional-optimization-report.pdf",
+      "source_sha256": "7d7e41d3caf2eae8c82ac46994c1414ffb1b67a72555e07a40d17fea547f91fe",
+      "output_sha256": "65f45df51d29adf302e0ba0865c772edd666fea042dd96ca512af136dd2db4a2",
+      "pages": 19,
+      "modified_pages": [
+        1
+      ],
+      "modification": "Student identifier removed with PDF text redaction. Other report contents retained."
+    },
+    {
+      "source": "be_apribojimu/optimizavimas_be_apr_2.pdf",
+      "destination": "docs/reports/02-unconstrained-optimization-report.pdf",
+      "source_sha256": "608481167329b032d294ad358d8872e28a3d9785ce4af407dcba8c4112897950",
+      "output_sha256": "abf04f2c8a3c21aeab385d73a8fa7a700f913e8d44c2e6d2a9f03d754b8e6ef9",
+      "pages": 24,
+      "modified_pages": [
+        2
+      ],
+      "modification": "Student identifier removed with PDF text redaction. Other report contents retained."
+    },
+    {
+      "source": "neties_test/netiesinis_pataisytas.pdf",
+      "destination": "docs/reports/03-constrained-optimization-report.pdf",
+      "source_sha256": "b057f974e32fa33115f5009dd553d61cf8a2c59cc889d2ba0806533e6ac63ef4",
+      "output_sha256": "3228fca534b9cc79cc5af681d31e1d5cdbcbe7245ffd8ec8fb1311a6082efb5e",
+      "pages": 11,
+      "modified_pages": [
+        2
+      ],
+      "modification": "Student identifier removed with PDF text redaction. Other report contents retained."
+    }
+  ],
+  "selection_notes": [
+    "One-dimensional report 1.2 adds method descriptions to the earlier report without changing its summary data.",
+    "Unconstrained optimizavimas_be_apr_2 report includes more complete objective-value and iteration tables than be_apr.pdf.",
+    "Constrained netiesinis_pataisytas report is the own-name revision with the cleaned conclusion; numerical tables match netiesinis_corrected.pdf.",
+    "All 15 saved be_apr_grafikai exports are retained. Older be_apr_graphs versions use alternative framing of the same experiments and are not duplicated.",
+    "vienmatis/newton.png is a byte-identical copy of auksinio.png, showing golden-section search. newton_good.png supplies the Newton illustration.",
+    "No original constrained or linear-programming chart was found. The constrained results are documented in report tables.",
+    "Lecture handouts and other students reference reports are excluded."
+  ]
+}
